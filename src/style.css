@@ -1,0 +1,81 @@
+* {
+  box-sizing: border-box;
+  font-family: comic "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+}
+body {
+  margin: 0;
+}
+nav {
+  background-color: rgb(218, 64, 64);
+  padding: 4px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-icon {
+  margin-bottom: 1.5px;
+  margin-right: 2px;
+  vertical-align: bottom;
+}
+nav h3 {
+  color: whitesmoke;
+  text-align: center;
+  font-size: 16px;
+}
+
+.Card-img {
+  width: 150px;
+  height: 220px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+.Card-container {
+  display: flex;
+}
+a,
+h3,
+p,
+span {
+  margin-top: 16px;
+  letter-spacing: 0.1px;
+}
+.Card-link {
+  padding-left: 5px;
+  color: grey;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.Card-country {
+  display: inline;
+  margin-bottom: 0px;
+  letter-spacing: 0.2em;
+}
+.Card-text {
+  max-width: 250px;
+  padding-left: 20px;
+}
+.Card-date {
+  font-weight: bold;
+}
+.Card-icon {
+  color: rgb(218, 64, 64);
+  margin-bottom: 1.5px;
+  margin-right: 2px;
+  vertical-align: bottom;
+}
+/**
+.Card-img {
+  width: 300px;
+  height: 200px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+svg {
+  color: White;
+  margin: 0 auto;
+}
+*/
